@@ -6,7 +6,7 @@
 Dragonfantasies Colortool - Writing texts for the Browsergame Dragonfantasies
 (www.dragonfantasies.de) using color tags
 
-Copyright (C) 2010  Felix Widmaier <widiland@gmail.com>
+Copyright (C) 2010  Felix Widmaier <[redacted by archivist]>
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
