@@ -1,0 +1,27 @@
+{ Das ist eine automatisch erzeugte Lazarus-Ressourcendatei }
+
+LazarusResources.Add('TFormInfo','FORMDATA',[
+  'TPF0'#9'TFormInfo'#8'FormInfo'#4'Left'#3#212#2#6'Height'#3#253#0#3'Top'#3'T'
+  +#1#5'Width'#3#16#2#13'ActiveControl'#7#5'Memo3'#7'Caption'#6#8'FormInfo'#12
+  +'ClientHeight'#3#253#0#11'ClientWidth'#3#16#2#10'LCLVersion'#6#8'0.9.28.2'#0
+  +#6'TLabel'#6'Label1'#4'Left'#2#8#6'Height'#2#18#3'Top'#2#8#5'Width'#3#7#1#7
+  +'Caption'#6'&Zandrus DragonFantasies-Colortool v3.1'#11'ParentColor'#8#0#0#5
+  +'TMemo'#5'Memo3'#4'Left'#2#12#6'Height'#3#184#0#3'Top'#2' '#5'Width'#3#252#1
+  +#11'BorderStyle'#7#6'bsNone'#5'Color'#7#9'clBtnFace'#13'Lines.Strings'#1#6'D'
+  +'Copyright (C) 2010  Felix Widmaier (aka Zandru) <widiland@gmail.com>'#6#0#6
+  +'MThis program is free software; you can redistribute it and/or modify it un'
+  +'der'#6'Mthe terms of the GNU General Public License as published by the Fre'
+  +'e Software'#6'JFoundation; either version 2 of the License, or (at your opt'
+  +'ion) any later'#6#8'version.'#6#0#6'OThis program is distributed in the hop'
+  +'e that it will be useful, but WITHOUT ANY'#6'OWARRANTY; without even the im'
+  +'plied warranty of MERCHANTABILITY or FITNESS FOR A'#6'HPARTICULAR PURPOSE. '
+  +'See the GNU General Public License for more details.'#6#0#6'LYou should hav'
+  +'e received a copy of the GNU General Public License along with'#6'Bthis pro'
+  +'gram; if not, write to the Free Software Foundation, Inc.,'#6'851 Franklin '
+  +'St, Fifth Floor, Boston, MA 02110, USA      '#0#8'ReadOnly'#9#8'TabOrder'#2
+  +#1#0#0#8'TToolBar'#8'ToolBar1'#4'Left'#2#0#6'Height'#2#29#3'Top'#3#224#0#5'W'
+  +'idth'#3#16#2#5'Align'#7#8'alBottom'#12'ButtonHeight'#2#28#7'Caption'#6#8'To'
+  +'olBar1'#8'TabOrder'#2#0#0#7'TButton'#7'Button1'#4'Left'#2#1#6'Height'#2#28#3
+  +'Top'#2#2#5'Width'#2'K'#7'Caption'#6#10'Schlie'#195#159'en'#7'OnClick'#7#12
+  +'Button1Click'#8'TabOrder'#2#0#0#0#0#0
+]);

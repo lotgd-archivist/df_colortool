@@ -1,0 +1,64 @@
+object FormInfo: TFormInfo
+  Left = 724
+  Height = 253
+  Top = 340
+  Width = 528
+  ActiveControl = Memo3
+  Caption = 'FormInfo'
+  ClientHeight = 253
+  ClientWidth = 528
+  LCLVersion = '0.9.28.2'
+  object Label1: TLabel
+    Left = 8
+    Height = 18
+    Top = 8
+    Width = 263
+    Caption = 'Zandrus DragonFantasies-Colortool v3.1'
+    ParentColor = False
+  end
+  object Memo3: TMemo
+    Left = 12
+    Height = 184
+    Top = 32
+    Width = 508
+    BorderStyle = bsNone
+    Color = clBtnFace
+    Lines.Strings = (
+      'Copyright (C) 2010  Felix Widmaier (aka Zandru) <widiland@gmail.com>'
+      ''
+      'This program is free software; you can redistribute it and/or modify it under'
+      'the terms of the GNU General Public License as published by the Free Software'
+      'Foundation; either version 2 of the License, or (at your option) any later'
+      'version.'
+      ''
+      'This program is distributed in the hope that it will be useful, but WITHOUT ANY'
+      'WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A'
+      'PARTICULAR PURPOSE. See the GNU General Public License for more details.'
+      ''
+      'You should have received a copy of the GNU General Public License along with'
+      'this program; if not, write to the Free Software Foundation, Inc.,'
+      '51 Franklin St, Fifth Floor, Boston, MA 02110, USA      '
+    )
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 29
+    Top = 224
+    Width = 528
+    Align = alBottom
+    ButtonHeight = 28
+    Caption = 'ToolBar1'
+    TabOrder = 0
+    object Button1: TButton
+      Left = 1
+      Height = 28
+      Top = 2
+      Width = 75
+      Caption = 'Schließen'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+  end
+end

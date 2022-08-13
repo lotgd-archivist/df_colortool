@@ -1,0 +1,216 @@
+object FormConfig: TFormConfig
+  Left = 4
+  Height = 239
+  Top = 213
+  Width = 357
+  ActiveControl = PageControl1
+  Caption = 'Einstellungen'
+  ClientHeight = 239
+  ClientWidth = 357
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '0.9.28.2'
+  object Button2: TButton
+    Left = 80
+    Height = 25
+    Top = 212
+    Width = 75
+    Caption = 'Abbrechen'
+    OnClick = Button2Click
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 0
+    Height = 25
+    Top = 212
+    Width = 75
+    Caption = 'Speichern'
+    OnClick = SaveSettings
+    TabOrder = 1
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 209
+    Top = 0
+    Width = 357
+    ActivePage = TabSheet2
+    TabIndex = 1
+    TabOrder = 2
+    object TabSheet1: TTabSheet
+      Caption = 'Allgemein'
+      ClientHeight = 174
+      ClientWidth = 351
+      object Label1: TLabel
+        Left = 16
+        Height = 18
+        Hint = 'Sicherheitsabfrage beim Schließen ungespeicherter Dateien'
+        Top = 24
+        Width = 106
+        Caption = 'Speicherabfrage'
+        ParentColor = False
+        ParentShowHint = False
+        ShowHint = True
+      end
+      object chk_defdef: TCheckBox
+        Left = 16
+        Height = 22
+        Hint = 'Standartfarbe beim Start'
+        Top = 58
+        Width = 113
+        Caption = 'Standartfarbe'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+      end
+      object cbx_savequest: TComboBox
+        Left = 189
+        Height = 31
+        Hint = 'Sicherheitsabfrage beim Schließen ungespeicherter Dateien'
+        Top = 20
+        Width = 145
+        ItemHeight = 0
+        ItemIndex = 0
+        Items.Strings = (
+          'immer'
+          'nur wenn Datei geöffnet'
+          'nie'
+        )
+        ParentShowHint = False
+        ShowHint = True
+        Style = csDropDownList
+        TabOrder = 1
+        Text = 'immer'
+      end
+      object defdefcol: TComboBox
+        Left = 189
+        Height = 27
+        Hint = 'Beim Start eingestellte Standartfarbe'
+        Top = 56
+        Width = 145
+        AutoSize = False
+        DropDownCount = 20
+        ItemHeight = 13
+        ParentShowHint = False
+        ReadOnly = True
+        ShowHint = True
+        Style = csOwnerDrawFixed
+        TabOrder = 2
+      end
+    end
+    object TabSheet2: TTabSheet
+      Hint = 'Ausgewählte Zeile löschen'
+      Caption = 'Einfügen'
+      ClientHeight = 174
+      ClientWidth = 351
+      ImageIndex = 1
+      ParentShowHint = False
+      ShowHint = True
+      object SpeedButton1: TSpeedButton
+        Left = 320
+        Height = 25
+        Top = 28
+        Width = 25
+        Color = clBtnFace
+        Glyph.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          00000000000000000000325BFFFF000000000000000000000000000000000000
+          0000000000003461FFFF1E4BFFFF000000000000000000000000000000000000
+          0000000000001947FFFF1744FCFF000000000000000000000000000000000000
+          0000000000001B48FFFF002AF6FF1F4BFFFF0000000000000000000000000000
+          00001E4BFFFF1A47FCFF00000000000000000000000000000000000000000000
+          000000000000000000001C48FCFF002AF6FF1E4AFCFF00000000000000001F4B
+          FFFF0234FCFF0000000000000000000000000000000000000000000000000000
+          00000000000000000000000000001F4BFFFF0027F3FF0737F9FF0D3DFFFF0030
+          FCFF204CFFFF0000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000002651FFFF002DF9FF002AF6FF2550
+          FFFF000000000000000000000000000000000000000000000000000000000000
+          000000000000000000000000000000000000000000000737F9FF0434F6FF0000
+          0000000000000000000000000000000000000000000000000000000000000000
+          000000000000000000000000000000000000244FFFFF0030FCFF0939FCFF1B46
+          F6FF000000000000000000000000000000000000000000000000000000000000
+          00000000000000000000000000002450FFFF0030FCFF2B56FFFF000000001D49
+          FCFF123FF6FF0000000000000000000000000000000000000000000000000000
+          000000000000000000002450FFFF0030FCFF0637FCFF00000000000000000000
+          00001B48FFFF1341F9FF00000000000000000000000000000000000000000000
+          0000000000003860FFFF0030FCFF0030FCFF4773FFFF00000000000000000000
+          0000000000001A47FFFF325BFFFF000000000000000000000000000000000000
+          000000000000000000001A47FCFF224EFFFF0000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000
+        }
+        Layout = blGlyphBottom
+        NumGlyphs = 0
+        OnClick = SpeedButton1Click
+        ParentShowHint = False
+      end
+      object edt_insertlistkey: TLabeledEdit
+        Left = 10
+        Height = 27
+        Hint = 'Bezeichnung im Menü'
+        Top = 28
+        Width = 107
+        EditLabel.AnchorSideLeft.Control = edt_insertlistkey
+        EditLabel.AnchorSideBottom.Control = edt_insertlistkey
+        EditLabel.Left = 10
+        EditLabel.Height = 18
+        EditLabel.Top = 7
+        EditLabel.Width = 83
+        EditLabel.Caption = 'Bezeichnung'
+        EditLabel.ParentColor = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+      end
+      object edt_insertlistvalue: TLabeledEdit
+        Left = 117
+        Height = 27
+        Hint = 'Text, der später eingefügt werden soll'
+        Top = 28
+        Width = 113
+        EditLabel.AnchorSideLeft.Control = edt_insertlistvalue
+        EditLabel.AnchorSideBottom.Control = edt_insertlistvalue
+        EditLabel.Left = 117
+        EditLabel.Height = 18
+        EditLabel.Top = 7
+        EditLabel.Width = 56
+        EditLabel.Caption = 'Einfügen'
+        EditLabel.ParentColor = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+      end
+      object Button3: TButton
+        Left = 229
+        Height = 27
+        Top = 28
+        Width = 88
+        Caption = 'Hinzufügen'
+        OnClick = Button3Click
+        ParentShowHint = False
+        TabOrder = 2
+      end
+      object InsertList: TStringGrid
+        Left = 10
+        Height = 105
+        Top = 65
+        Width = 333
+        AutoFillColumns = True
+        ColCount = 0
+        FixedCols = 0
+        FixedRows = 0
+        RowCount = 0
+        ScrollBars = ssVertical
+        TabOrder = 3
+      end
+    end
+  end
+end

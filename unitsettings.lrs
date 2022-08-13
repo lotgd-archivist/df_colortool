@@ -1,0 +1,87 @@
+{ Das ist eine automatisch erzeugte Lazarus-Ressourcendatei }
+
+LazarusResources.Add('TFormConfig','FORMDATA',[
+  'TPF0'#11'TFormConfig'#10'FormConfig'#4'Left'#2#4#6'Height'#3#239#0#3'Top'#3
+  +#213#0#5'Width'#3'e'#1#13'ActiveControl'#7#12'PageControl1'#7'Caption'#6#13
+  +'Einstellungen'#12'ClientHeight'#3#239#0#11'ClientWidth'#3'e'#1#8'OnCreate'#7
+  +#10'FormCreate'#6'OnShow'#7#8'FormShow'#10'LCLVersion'#6#8'0.9.28.2'#0#7'TBu'
+  +'tton'#7'Button2'#4'Left'#2'P'#6'Height'#2#25#3'Top'#3#212#0#5'Width'#2'K'#7
+  +'Caption'#6#9'Abbrechen'#7'OnClick'#7#12'Button2Click'#8'TabOrder'#2#0#0#0#7
+  +'TButton'#7'Button1'#4'Left'#2#0#6'Height'#2#25#3'Top'#3#212#0#5'Width'#2'K'
+  +#7'Caption'#6#9'Speichern'#7'OnClick'#7#12'SaveSettings'#8'TabOrder'#2#1#0#0
+  +#12'TPageControl'#12'PageControl1'#4'Left'#2#0#6'Height'#3#209#0#3'Top'#2#0#5
+  +'Width'#3'e'#1#10'ActivePage'#7#9'TabSheet2'#8'TabIndex'#2#1#8'TabOrder'#2#2
+  +#0#9'TTabSheet'#9'TabSheet1'#7'Caption'#6#9'Allgemein'#12'ClientHeight'#3#174
+  +#0#11'ClientWidth'#3'_'#1#0#6'TLabel'#6'Label1'#4'Left'#2#16#6'Height'#2#18#4
+  +'Hint'#6':Sicherheitsabfrage beim Schlie'#195#159'en ungespeicherter Dateien'
+  +#3'Top'#2#24#5'Width'#2'j'#7'Caption'#6#15'Speicherabfrage'#11'ParentColor'#8
+  +#14'ParentShowHint'#8#8'ShowHint'#9#0#0#9'TCheckBox'#10'chk_defdef'#4'Left'#2
+  +#16#6'Height'#2#22#4'Hint'#6#24'Standartfarbe beim Start'#3'Top'#2':'#5'Widt'
+  +'h'#2'q'#7'Caption'#6#13'Standartfarbe'#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#0#0#0#9'TComboBox'#13'cbx_savequest'#4'Left'#3#189#0#6'Height'#2
+  +#31#4'Hint'#6':Sicherheitsabfrage beim Schlie'#195#159'en ungespeicherter Da'
+  +'teien'#3'Top'#2#20#5'Width'#3#145#0#10'ItemHeight'#2#0#9'ItemIndex'#2#0#13
+  +'Items.Strings'#1#6#5'immer'#6#24'nur wenn Datei ge'#195#182'ffnet'#6#3'nie'
+  +#0#14'ParentShowHint'#8#8'ShowHint'#9#5'Style'#7#14'csDropDownList'#8'TabOrd'
+  +'er'#2#1#4'Text'#6#5'immer'#0#0#9'TComboBox'#9'defdefcol'#4'Left'#3#189#0#6
+  +'Height'#2#27#4'Hint'#6'%Beim Start eingestellte Standartfarbe'#3'Top'#2'8'#5
+  +'Width'#3#145#0#8'AutoSize'#8#13'DropDownCount'#2#20#10'ItemHeight'#2#13#14
+  +'ParentShowHint'#8#8'ReadOnly'#9#8'ShowHint'#9#5'Style'#7#16'csOwnerDrawFixe'
+  +'d'#8'TabOrder'#2#2#0#0#0#9'TTabSheet'#9'TabSheet2'#4'Hint'#6#27'Ausgew'#195
+  +#164'hlte Zeile l'#195#182'schen'#7'Caption'#6#9'Einf'#195#188'gen'#12'Clien'
+  +'tHeight'#3#174#0#11'ClientWidth'#3'_'#1#10'ImageIndex'#2#1#14'ParentShowHin'
+  +'t'#8#8'ShowHint'#9#0#12'TSpeedButton'#12'SpeedButton1'#4'Left'#3'@'#1#6'Hei'
+  +'ght'#2#25#3'Top'#2#28#5'Width'#2#25#5'Color'#7#9'clBtnFace'#10'Glyph.Data'
+  +#10':'#4#0#0'6'#4#0#0'BM6'#4#0#0#0#0#0#0'6'#0#0#0'('#0#0#0#16#0#0#0#16#0#0#0
+  +#1#0' '#0#0#0#0#0#0#4#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'2['#255#255#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'4a'#255#255#30'K'#255#255#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#25'G'#255#255#23'D'#252#255#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#27'H'#255#255#0'*'#246#255#31'K'#255#255#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#30'K'#255#255#26'G'#252#255#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#28'H'#252#255#0'*'#246#255#30
+  +'J'#252#255#0#0#0#0#0#0#0#0#31'K'#255#255#2'4'#252#255#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#31'K'#255#255#0
+  +''''#243#255#7'7'#249#255#13'='#255#255#0'0'#252#255' L'#255#255#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +'&Q'#255#255#0'-'#249#255#0'*'#246#255'%P'#255#255#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#7'7'#249#255#4'4'#246#255#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'$O'#255#255#0'0'#252
+  +#255#9'9'#252#255#27'F'#246#255#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'$P'#255#255#0'0'#252#255'+V'#255
+  +#255#0#0#0#0#29'I'#252#255#18'?'#246#255#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'$P'#255#255#0'0'#252#255#6'7'#252#255#0
+  +#0#0#0#0#0#0#0#0#0#0#0#27'H'#255#255#19'A'#249#255#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'8`'#255#255#0'0'#252#255#0'0'#252#255'Gs'#255
+  +#255#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#26'G'#255#255'2['#255#255#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#26'G'#252#255'"N'#255#255#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#6'Layout'#7#13'blGlyphBottom'#9'NumGlyphs'#2#0#7'OnClick'#7#17'SpeedButton1'
+  ,'Click'#14'ParentShowHint'#8#0#0#12'TLabeledEdit'#17'edt_insertlistkey'#4'Le'
+  +'ft'#2#10#6'Height'#2#27#4'Hint'#6#20'Bezeichnung im Men'#195#188#3'Top'#2#28
+  +#5'Width'#2'k EditLabel.AnchorSideLeft.Control'#7#17'edt_insertlistkey"EditL'
+  +'abel.AnchorSideBottom.Control'#7#17'edt_insertlistkey'#14'EditLabel.Left'#2
+  +#10#16'EditLabel.Height'#2#18#13'EditLabel.Top'#2#7#15'EditLabel.Width'#2'S'
+  +#17'EditLabel.Caption'#6#11'Bezeichnung'#21'EditLabel.ParentColor'#8#14'Pare'
+  +'ntShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#0#0#0#12'TLabeledEdit'#19'edt_ins'
+  +'ertlistvalue'#4'Left'#2'u'#6'Height'#2#27#4'Hint'#6'(Text, der sp'#195#164
+  +'ter eingef'#195#188'gt werden soll'#3'Top'#2#28#5'Width'#2'q EditLabel.Anch'
+  +'orSideLeft.Control'#7#19'edt_insertlistvalue"EditLabel.AnchorSideBottom.Con'
+  +'trol'#7#19'edt_insertlistvalue'#14'EditLabel.Left'#2'u'#16'EditLabel.Height'
+  +#2#18#13'EditLabel.Top'#2#7#15'EditLabel.Width'#2'8'#17'EditLabel.Caption'#6
+  +#9'Einf'#195#188'gen'#21'EditLabel.ParentColor'#8#14'ParentShowHint'#8#8'Sho'
+  +'wHint'#9#8'TabOrder'#2#1#0#0#7'TButton'#7'Button3'#4'Left'#3#229#0#6'Height'
+  +#2#27#3'Top'#2#28#5'Width'#2'X'#7'Caption'#6#11'Hinzuf'#195#188'gen'#7'OnCli'
+  +'ck'#7#12'Button3Click'#14'ParentShowHint'#8#8'TabOrder'#2#2#0#0#11'TStringG'
+  +'rid'#10'InsertList'#4'Left'#2#10#6'Height'#2'i'#3'Top'#2'A'#5'Width'#3'M'#1
+  +#15'AutoFillColumns'#9#8'ColCount'#2#0#9'FixedCols'#2#0#9'FixedRows'#2#0#8'R'
+  +'owCount'#2#0#10'ScrollBars'#7#10'ssVertical'#8'TabOrder'#2#3#0#0#0#0#0
+]);
